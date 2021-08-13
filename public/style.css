@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#chat-messages {
+    min-height: 10vh;
+    height: 60vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+.nav-wrapper {
+    background-color: #4DD0E1;
+    position:absolute;
+ 
+    
+}
+
+.logo-gossip{
+    float: left;
+    margin-left: 10px;
+}
+
+.logo-icon{
+    float:right;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+
+.page-foot{
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #4DD0E1;
+}
+
+#chat-messages {
+    height: 45vh;
+    width: 100%;
+    overflow-y: scroll;
+}
